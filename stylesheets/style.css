@@ -1,0 +1,86 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  margin: 0;
+  color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+}
+.loader {
+  text-align: center;
+  margin-top: 100px;
+}
+.bg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #000;
+}
+.banner {
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 0;
+  padding: 10px 0;
+  background-color: rgba(0,0,0,0.6);
+}
+.index {
+  text-align: center;
+  font-size: 18px;
+}
+.index .orientation-button {
+  margin: 10px auto;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+.live .poll,
+.follow .poll {
+  width: 300px;
+  margin: 80px auto;
+}
+.live .slide {
+  width: 100%;
+}
+.follow .slide {
+  width: 100%;
+}
+.remote {
+  text-align: center;
+  color: #fff;
+}
+.remote .slide {
+  width: 100%;
+}
+.remote .buttons {
+  width: 270px;
+  margin: 0 auto;
+}
+.remote .button {
+  cursor: pointer;
+  float: left;
+  width: 90px;
+  border: 2px solid #aaa;
+  padding: 10px;
+  margin: 10px 10px;
+}
+.remote .button:active {
+  background-color: rgba(255,255,255,0.2);
+}
+.remote .poll {
+  text-align: left;
+}

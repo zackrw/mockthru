@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mockthru</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <% if (monitor) { %>
+        <link rel='stylesheet' href='/stylesheets/monitor.css' />
+    <% } %>
+</head>
+<body>
+    <div class="loader"><img src="/images/loader.gif"></div>
+    <div class="view" style="display:none;">
+        <img class="mock" height="<%= mockHeight %>" width="<%= mockWidth %>">
+        <div class="hotspots"></div>
+        <% if (monitor) { %>
+            <div class="back">&lt; Back</div>
+        <% } %>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"></script>
+    <script src="/javascripts/helpers.js"></script>
+    <script src="/javascripts/main.js"></script>
+</body>
+</html>

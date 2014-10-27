@@ -1,0 +1,54 @@
+{
+
+  "dimensions": {
+    "height": "480px",
+    "width": "320px"
+  },
+  "views": {
+    "start": {
+      "src": "/images/start.png",
+      "hotspots": [{
+        "x": "60px",
+        "y": "260px",
+        "height": "75px",
+        "width": "200px",
+        "next": "about"
+      }]
+    },
+    "about": {
+      "src": "/images/about.png",
+      "hotspots": [{
+        "x": 0,
+        "y": 0,
+        "height": "480px",
+        "width": "320px",
+        "next": "team"
+      }]
+    },
+
+    "team": {
+      "src": "/images/team.png",
+      "hotspots": [{
+        "x": "0",
+        "y": "175px",
+        "height": "100px",
+        "width": "50px",
+        "next": "about"
+      }, {
+        "x": "270px",
+        "y": "175px",
+        "height": "100px",
+        "width": "50px",
+        "next": "thanks"
+      }]
+    },
+
+    "thanks": {
+      "src": "/images/thanks.png",
+      "hotspots": []
+    }
+
+  }
+
+
+}
